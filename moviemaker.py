@@ -35,7 +35,6 @@ video = cv.VideoWriter(video_name,cv.VideoWriter_fourcc(*'MJPG'),30,size)
 for image in training_set:
     video.write(cv.imread(os.path.join(Dataset_path, image)))
 
-cv.destroyAllWindows()
 video.release()    
 cv.destroyAllWindows()
 
