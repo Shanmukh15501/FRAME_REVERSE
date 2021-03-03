@@ -1,1 +1,1 @@
-# MovieMaker
+This Code Deals with Open Computer Vision Library where you extract all the images from a video in the form of frames and load it in a dataset.The order of the images are placed in reverse in order to play the video from end to beginning which is just a short glimse of opencv tools.
